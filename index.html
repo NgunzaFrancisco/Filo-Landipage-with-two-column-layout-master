@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho centrar">
+    <img src="images/logo.svg" alt="Logotipo da Página" class="cabecalho__logo">
+    <nav class="cabecalho__menu">
+      <ul class="menu__lista">
+        <li class="menu__lista--item"><a href="#">Features</a></li>
+        <li class="menu__lista--item"><a href="#">Team</a></li>
+        <li class="menu__lista--item"><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteudo -->
+  <main class="conteudo centrar">
+    
+    <section class="conteudo__seccao seccao-1">
+      <img src="images/illustration-1.svg" alt="Imagem da Primeira Ilustracao" class="seccao-imagem">
+      <article class="seccao-1__conteudo">
+        
+        <h1 class="seccao-1__titulo">All your files in one secure location, accessible anywhere.</h1>
+        
+        <p class="seccao-1__texto">
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+
+        <form action="" class="seccao-1__formulario">
+          <label for="email"  class="formulario-label">E-mail</label>
+          <input type="email" name="email" id="email" class="formulario-campo" placeholder="Enter your email">
+          <button type="submit" class="formulario-botao  botao">Get Started</button>
+          <span class="form_alert-1">Please check your email</span>
+        </form>
+
+      </article>
+    </section>
+
+    <section class="conteudo__seccao seccao-2">
+      <img src="images/illustration-2.svg" alt="Imagem da Ilustracao 2" class="seccao-imagem">
+
+      <div>
+      <article class="seccao-2__conteudo">
+        <h1 class="seccao-2__titulo">Stay productive, wherever you are</h1>
+        <p class="seccao-2__texto">
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+        <p class="seccao-2__texto">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+        <div class="seccao-2__link">
+          <a href="#">See how Fylo works</a>
+          <img src="images/icon-arrow.svg" alt="Icone de Seta">
+        </div>
+        
+      </article>
+
+      <article class="seccao-2__card">
+        <img src="images/icon-quotes.svg" alt="Imagem de Quotes" class="card-img">
+        <p class="card__texto">
+          Fylo has improved our team productivity by an order of magnitude. Since 
+          making the switch our team has become a well-oiled collaboration machine.
+        </p>
+        <div class="card__pessoa">
+          <img src="images/avatar-testimonial.jpg" alt="Imagem do CEO" class="card__pessoa-imagem">
+          <div class="card__pessoa-descricao">
+            <h2>Kyle Burton</h2>
+            <small>Founder & CEO, Huddle</small>
+          </div>
+        </div>
+      </article>
+    </div>
+    </section>
+    
+  </main>
+
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <section class="rodape__seccao-1 ">
+      <div>
+      <h1 class="rodape__seccao-1__titulo">Get early access today</h1>
+      <p class="rodape__seccao-1__texto">
+        It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+
+      <form action="" class="rodape__formulario">
+        <label for="email" class="">E-mail</label>
+        <input type="email" name="email" id="email" class="" placeholder="email@example.com">
+        <button type="submit" class="botao">Get Started For Free</button>
+        <span class="form_alert-2">Please check your email</span>
+      </form>
+    </section>
+
+    <section class="rodape__seccao-2">
+        <img src="images/logo.svg" alt="Logo da Pagina" class="rodape-logo">
+        
+        <div class="rodape__seccao-2__div">
+        <article class="seccao-2__contactos">
+          <p class="contacto-fone"><img src="images/icon-phone.svg" alt="Icone de Fone"> Phone: +1-543-123-4567</p>
+          <p class="contacto-email"><img src="images/icon-email.svg" alt="Icone de E-mail">example@fylo.com</p>
+        </article>
+
+        <nav class="menu__navegacao  navegacao-1">
+          <ul class="menu__lista">
+            <li class="menu__lista-item"><a href="#">About Us</a></li>
+            <li class="menu__lista-item"><a href="#">Jobs</a></li>
+            <li class="menu__lista-item"><a href="#">Press</a></li>
+            <li class="menu__lista-item"><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+
+        <nav class="menu__navegacao">
+          <ul class="menu__lista">
+            <li class="menu__lista-item"><a href="#">Contact Us</a></li>
+            <li class="menu__lista-item"><a href="#">Terms</a></li>
+            <li class="menu__lista-item"><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        
+    </section>
+  </footer>
+
+  </div>
+</body>
+</html>
